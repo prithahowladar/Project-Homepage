@@ -1,0 +1,244 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+ 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+
+}
+
+#navbar { 
+    display: flex;
+  padding: 15px;
+  width:100%;
+  padding-left: px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  line-height: 3;
+background-image: linear-gradient(to right, 
+     black 20%  80%, #3dd193 80%);
+opacity: ;
+
+}
+
+div.container
+{
+    font-family: sans-serif;
+    
+	text-align: center;
+}
+        
+            
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 18px sans-serif;
+    margin-right:80px;
+    
+    padding: 15px 10px;
+    padding-right:
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+ 
+            div.container a:hover{
+                color:#3dd193;
+            }
+}
+
+button,
+button:active,
+button:focus, 
+button:hover,
+.btn,
+.btn:active, 
+.btn:focus, 
+.btn:hover {   
+    outline: none !important;
+    border: none !important;
+}
+
+button {
+  padding: 3px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+padding-right: 20px;
+}
+
+button:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  
+}
+            #sign-in{
+                margin-left: 50px;
+                padding-top: 5px;
+                margin-top: 5px;
+                
+                color: white;
+            }
+
+            #sigh-in:hover{
+                color: black;
+            }
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+  
+            #hero{
+                display: flex;
+            }
+            
+            
+            #hero-left{
+                width:80%;
+                height: 500px;
+                background-color: white;
+                
+            }
+            
+            #hero-right{
+                width: 20%;
+                background-image:url("whatever.jpeg") ;
+                height: 500px;
+  background-position: right;
+  background-repeat:no-repeat; 
+  background-size: default; 
+  background-attachment: fixed;
+                
+            }
+            
+            #heading{
+                font-size: 220px;
+                padding-top: 100px;
+                padding-left:15px;
+            }
+            
+            #heading-text{
+                font-size: 35px;
+                padding-left: 32px;
+                
+            }
+            
+           
+            .button {
+
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+            #add-resume-btn{
+                background-color:white; 
+                border:2px solid black;
+                border-radius: 50px;
+                color: black;
+                font-size: 20px;
+                padding:12px;
+                margin-left: 35px;
+                margin-top:20px;
+                
+                
+            }
+            #add-resume-btn:hover{
+                border:2px solid #3dd193;
+                color:#3dd193;
+            }
+            #hire-talent-btn{
+               background-color:white; 
+                border:2px solid black;
+                border-radius: 50px;
+                color: black;
+                font-size: 20px;
+                padding:12px;
+                margin-left: 10px;
+                
+            }
+            #hire-talent-btn:hover{
+               border:2px solid #3dd193;
+                color:#3dd193;
+            } 
+            }
+            #description{
+                display: flex;
+            } 
+            #description-left{
+                width:80%;
+                 background-color: black;
+                background-image: url("keyboard.jpeg");
+                
+                   height: 600px;
+  background-position: center;
+  background-repeat:no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed;
+                position: absolute;
+                z-index: -1;
+ 
+                
+                
+            }
+            
+            #description-right{
+                width: 20%;
+                color:white;
+            }
+            
+            #description-left-text{
+                width:100%;
+                height:600px;
+                background-color: black;
+                opacity:0.8;
+                color:white;
+                font-size: 20px;
+                position: absolute;
+                z-index: -1;
+            
+                
+               
+            }
+            
+            #core-text{
+                
+                padding: 100px;
+                border-left: 32px solid #3dd193 ;
+  height: 600px;
+            }
+            
