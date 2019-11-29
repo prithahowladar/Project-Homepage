@@ -8,6 +8,11 @@
 
 
 
+    <header>
+
+
+
+
     <div id="navbar">
       <div class="container red topBotomBordersOut">
 
@@ -18,7 +23,7 @@
 	<a href="http://www.profcess.com/Business/portfolio/">Portfolio</a>
           <a href="http://www.profcess.com/Business/gallery/">Gallery</a></div>
         <div id="btn">
-   <button id="sign-in">LOG IN</button>
+   <a href= "http://venkateshyelnoorkar.pythonanywhere.com/signup/" id="sign-in">REGISTER</a>
 </div>
       </div>
 
@@ -28,7 +33,9 @@
         <div id="hero">
             <div id="hero-left">
               <div id="heading">Profcess<span style="color: #3dd193">.</span><span id="cursor">|</span></div>
-              <div id="heading-text">Your Answer To Professional Success...</div>
+              <div id="heading-text">Your Answer To Professional Success...
+                </div>
+                
 
             </div>
             <div id="hero-right"></div>
@@ -39,17 +46,16 @@
         <div id="description-left">
 
             <div id="description-left-text"><div id="core-text">
-                <p>The Professional Success(Prof-Cess) is a platform where dedicated vision and Ideas are shaped into reality by Experienced guidance, latest technology, Market Trends and much more. We work as a catalyst, between companies and skilled students, by completing the reaction between them.</p><br>
-                <p>We aim at providing students with the best internships from the best companies in reference to their skills.Through specialized training for interns through internships, their skills are nurtured and they get industry ready.</p><br>
-<p>We provide them with the real-time knowledge of the latest technologies and make them go through the process of working on industrial projects.</p><br>
-<p>Industries need interns for their short term projects and interns need knowledge and experience in short terms, so we work as a link between students and companies and fill this gap.</p><br>
-<p>Interns could get offer letters for long term projects and could also be given job letters by the company through persistent hardwork and dedicated passion.</p><br>
-                <p>And this is how we enhance the market scenario. </p>
-<p>Productivity is our main goal and yes..
-    <span style="color:#3dd193 ">Productivity is never an accident! It is always the result of a commitment to excellence, intelligent planning and focused effort. </span>
-If you are keen in pursuing internship opportunities,
-    Come join us at Prof-cess.</p></div>
-            </div>
+                <p>The Professional Success(Prof-Cess) is a platform where dedicated vision and Ideas are shaped into reality by Experienced guidance, latest technology, Market Trends and much more. We work as a catalyst, between companies and skilled students. We aim at providing students with the best internships from the best companies in reference to their skills. We provide them with the real-time knowledge of the latest technologies and make them go through the process of working on industrial projects.</p>
+                <br>
+                <br>
+                <p>If you are keen in pursuing internship opportunities,
+Come join us at Prof-cess!!</p>
+                </div>
+                
+  
+
+                
                  </div>
         <div id="description-right">
 
@@ -88,8 +94,26 @@ If you are keen in pursuing internship opportunities,
         </div>
 
         <div id="footer">Created by Pritha Howladar.</div>
-        
-      <script src="main.js"></script>  
+        <script>
+            // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+        </script>
 
     </body>
 </html>
+
