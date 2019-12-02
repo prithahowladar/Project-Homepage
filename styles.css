@@ -1,13 +1,19 @@
-html { 
-  background: url(feature-1.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+html{ 
+  background: radial-gradient(
+      transparent, black
+    ),url(handhake.jpeg) no-repeat center center fixed; 
   background-size: cover;
-  opacity: 0.8;
+  padding-bottom: 180px;
+  padding-left:px;
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-top: -10px;
+  
+  
+  
 }
                 
-                
+                    
             
             
             
@@ -18,9 +24,9 @@ html {
 {
     font-family: Raleway;
     margin-top:-10px;
-    margin-left: -10px;
-    margin-right: -10px;
-	padding: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+	padding-top: 35px;
 	text-align: center;
 }
 
@@ -28,12 +34,14 @@ div.container a
 {
     color: #FFF;
     text-decoration: none;
-    font: 20px Raleway;
+    font: 15px 'Arizonia', Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
     margin: 0px 10px;
-    margin-right: 80px;
+    margin-right: 120px;
     padding: 10px 10px;
     position: relative;
-    z-index: 0;
+    z-index: 999;
     cursor: pointer;
 }
             div.container a:hover{
@@ -42,13 +50,16 @@ div.container a
 .red
 {
     background: black;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    opacity: 0.5;
 }
             div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
 {
     position: absolute;
     left: 0px;
     width: 100%;
-    height: 2px;
+    height: 0px;
     background: tomato;
     content: "";
     opacity: 0;
@@ -91,138 +102,260 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   padding-top: 60px;
 }
             
-   
-                   
-            
-            .fa {
-  padding: 15px;
-  margin: 10px;
-  margin-top: 100px;
-  
-  font-size: 45px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  transition: all .3s ease-in-out; 
-  box-shadow:0px 0px 6px black;
-  display: flex;
-  flex-direction: column;
-
-}     
-            
-/* Add a hover effect if you want */
-.fa:hover {
-  -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: tomato;
-  color: white;
-  margin-left: 1200px;
-    
-}
-
-/* Twitter */
-.fa-twitter {
-  background: tomato;
-  color: white;
-    margin-left: 1200px;
-}
-   .fa-linkedin{
-  background: tomato;
-  color: white;
-       margin-left: 1200px;
-}         
-      .fa-dribbble{
-  background: tomato;
-  color: white;
-          margin-left: 1200px;
-}               
-            
-       .fa-google{
-  background: tomato;
-  color: white;
-          margin-left: 1200px;
-           margin-bottom: -120px;
-}               
             #heading{
-                color: white;
-                z-index: 999;
-                background-color: black;
-                margin-right: 200px;
-                margin-top: -350px;
-                font-size: 40px;
-                font-family:serif;
-                padding-bottom:20px;
-                font-weight: 100;
-                margin-left:40px;
-                
-                
-            }        
-            
-            
-            #abc{
-                margin-top:-50px;
-                padding-left: 20px;
-                margin-bottom: 0px;
-                padding-bottom:10px;
+                padding-left:400px;
+                padding-top: 100px;
             }
             
-            #pqr{
-                padding-top: 10px;
-                padding-left: 20px;
-            }
-            
-            #sp{
-                color:tomato;
-            }
-
-            
-            #heading-text{
-                color: white;
-                z-index: 999;
-                background-color: black;
-                margin-right: 200px;
-                margin-top: -35px;
-                font-size: 25px;
-                font-family:serif;
-                padding-bottom:20px;
-                font-weight: 100;
-                margin-left:40px;
-                padding-left:20px;
-                padding-right:20px;
-                padding-bottom: 80px;
-                
-                
-            }
-            
-            #my-text{
-                padding-left: 20px;
-            }
-            
-            
-            
-            #register-btn{
-                color:black;
-                text-decoration: none;
+            #heading-text-1{
+                color:white;
+                font: 100px 'Arizonia', Helvetica, sans-serif;
                 font-weight: 800;
-                background: tomato;
-                padding:8px;
-                border-radius: 5px;
-                box-shadow: 0px 0px 6px black;
-                transition: all .3s ease-in-out;
+                letter-spacing: 30px;
             }
             
-            #register-btn:hover{
-                -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-                background: cornflowerblue;
+            #heading-text-2{
+                color:white;
+                font: 20px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 800;
+                letter-spacing: 18px;
+                word-spacing: 50px;
+                margin-top:-80px;
+                padding-left:10px;
+            }
+            
+            
+            
+  
+
+a.button {
+	width: 200px;
+	height: 70px;
+	background: #333;
+	display: block;
+	position: relative;
+	
+	overflow: hidden;
+	border: 1px solid #333333;
+	color: white;
+	text-decoration: none;
+    margin-left: 320px;
+    margin-top: 80px;
+	
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.4);
+	-moz-box-shadow: inset 0px 1px 1px 00px rgba(255,255,255,.4);
+	box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.4);
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	
+	background-image: -webkit-linear-gradient(bottom, tomato,#c9431a);
+	background-image: -moz-linear-gradient(bottom, #383838 0%, #444444 49%, #555 50%, #555 100%);
+	background-image: -ms-linear-gradient(bottom, #383838 0%, #444444 49%, #555 50%, #555 100%);
+	background-image: -o-linear-gradient(bottom, #383838 0%, #444444 49%, #555 50%, #555 100%);
+	background-image: linear-gradient(bottom, #383838 0%, #444444 49%, #555 50%, #555 100%);
+}
+
+a.button span.text {
+	position: absolute;
+	top: 16px;
+	left: 65px;
+    font: 20px 'Arizonia', Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: -30px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 2px black;
+    
+	
+}
+
+a.button span.shine {
+	content: '';
+	position: absolute;
+	height: 400px;
+	width: 20px;
+	background: white;
+	top: -80px;
+	left: -20px;
+	display: block;
+	opacity: 0.8;
+	
+	-webkit-box-shadow: 0px 0px 20px 10px white; 
+	-moz-box-shadow: 0px 0px 20px 10px white; 
+	box-shadow: 0px 0px 20px 10px white; 
+	
+	-webkit-transform: rotate(-45deg);	
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+a.button:hover {
+	-webkit-box-shadow: inset 0px 1px 10px 0px rgba(255,255,255,.4), 0px 3px 3px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 1px 10px 0px rgba(255,255,255,.4), 0px 3px 3px 0px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 1px 10px 0px rgba(255,255,255,.4), 0px 3px 3px 0px rgba(0,0,0,0.4);
+}
+
+a.button:active {
+	-webkit-box-shadow: inset 0px 1px 15px 0px rgba(0,0,0,.4), inset 0px 1px 1px 1px rgba(0,0,0,.2), 0px 1px 1px 0 rgba(255,255,255,.5);
+	-moz-box-shadow: inset 0px 1px 15px 0px rgba(0,0,0,.4), inset 0px 1px 1px 1px rgba(0,0,0,.2), 0px 1px 1px 0 rgba(255,255,255,.5);
+	box-shadow: inset 0px 1px 15px 0px rgba(0,0,0,.4), inset 0px 1px 1px 1px rgba(0,0,0,.2), 0px 1px 1px 0 rgba(255,255,255,.5);
+}
+
+a.button:hover span.shine {
+	left: 170px;
+	top: -300px;
+}
+            
+            
+            #smallbox{
+  background: radial-gradient(
+      black, transparent
+    ),url(profcesspen.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+  padding-bottom: 200px;
+  margin-top: 200px;
+  padding-left: 50px;
+            }      
+            
+            #small-text-heading{
+                color:white;
+                font: 75px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 800;
+                letter-spacing: 10px;
+                word-spacing: 20px;
+                padding-left:  200px;
+                margin-right: 200px;
+                padding-top: 150px;
+                text-shadow: 0px 0px 8px black;
+                
                 
             }
+            
+            #smalltext{
+                color:white;
+                font: 25px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 500;
+                letter-spacing: 3px;
+                word-spacing: 6px;
+                padding-left:  200px;
+                margin-right: 260px;
+                padding-top: 70px;
+                text-shadow: 0px 0px 8px black;
+                
+            }  
+            
+            
+            #about{
+                background: radial-gradient(
+      black, transparent
+    ),url(pagemark.jpeg) no-repeat center center fixed; 
+                padding:100px;
+                padding-left:150px;
+            }    
+            
+            #about-text{
+                font: 75px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 800;
+                letter-spacing: 10px;
+                word-spacing: 20px;
+                padding-top: 30px;
+                color: white;
+                
+            }
+            
+            #about-text-1{
+                font: 20px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 500;
+                letter-spacing: 3px;
+                word-spacing: 6px;
+               color:white;
+            }
+            
+            #about-1{
+                font: 20px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 500;
+                letter-spacing: 3px;
+                word-spacing: 6px;
+                padding-top:30px;
+                padding-right:100px;
+                padding-top: 100px;
+                color:white;
+            }
+            
+            
+            #about-2-heading{
+                font: 75px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 800;
+                letter-spacing: 10px;
+                word-spacing: 20px;
+                padding-top:100px;
+                color:white;
+            }
+            
+            #about-2{
+                font: 20px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 500;
+                letter-spacing: 3px;
+                word-spacing: 6px;
+                padding-top:100px;
+                padding-right:100px;
+                color:white;
+            }
+            #about-3-heading{
+                font: 75px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 800;
+                letter-spacing: 10px;
+                word-spacing: 20px;
+                padding-top:100px;
+                color:white;
+            }
+            
+            #about-3{
+                font: 20px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 500;
+                letter-spacing: 3px;
+                word-spacing: 6px;
+                padding-top:100px;
+                padding-right:100px;
+                color:white;
+            }
+            
+            #contact{
+                margin-left:130px;
+                margin-right:400px;
+                padding-top:100px;
+            }
+            #contact-heading{
+                color:white;
+                font: 75px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 800;
+                letter-spacing: 10px;
+                word-spacing: 20px;
+            }
+            
+            #contact-text{
+                color:white;
+                font: 30px 'Arizonia', Helvetica, sans-serif;
+                font-weight: 500;
+                letter-spacing: 3px;
+                word-spacing: 6px;
+                padding-top:70px;
+            }
+            
