@@ -266,6 +266,7 @@ a.button:hover span.shine {
                 background: radial-gradient(
       black, transparent
     ),url(pagemark.jpeg) no-repeat center center fixed; 
+		background-size: cover;
                 padding:100px;
                 padding-left:150px;
             }    
