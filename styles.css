@@ -25,9 +25,10 @@ html{
     font-family: Raleway;
     margin-top:-10px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: -20px;
 	padding-top: 35px;
 	text-align: center;
+    
 }
 
 div.container a
@@ -52,7 +53,8 @@ div.container a
     background: black;
     padding-left: 100px;
     padding-bottom: 30px;
-    opacity: 0.5;
+   
+      opacity: 0.5;
 }
             div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
 {
@@ -103,8 +105,9 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
             
             #heading{
-                padding-left:400px;
+                
                 padding-top: 100px;
+                text-align: center;
             }
             
             #heading-text-1{
@@ -112,6 +115,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
                 font: 100px 'Arizonia', Helvetica, sans-serif;
                 font-weight: 800;
                 letter-spacing: 30px;
+                text-align: center;
             }
             
             #heading-text-2{
@@ -122,6 +126,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
                 word-spacing: 50px;
                 margin-top:-80px;
                 padding-left:10px;
+                text-align: center;
             }
             
             
@@ -134,13 +139,13 @@ a.button {
 	background: #333;
 	display: block;
 	position: relative;
-	
+	text-align: center;
 	overflow: hidden;
 	border: 1px solid #333333;
 	color: white;
 	text-decoration: none;
-    margin-left: 320px;
-    margin-top: 80px;
+    margin:auto;
+    margin-top:80px;
 	
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.4);
 	-moz-box-shadow: inset 0px 1px 1px 00px rgba(255,255,255,.4);
@@ -166,6 +171,7 @@ a.button {
 
 a.button span.text {
 	position: absolute;
+    text-align: center;
 	top: 16px;
 	left: 65px;
     font: 20px 'Arizonia', Helvetica, sans-serif;
@@ -232,6 +238,7 @@ a.button:hover span.shine {
   padding-bottom: 200px;
   margin-top: 200px;
   padding-left: 50px;
+  
             }      
             
             #small-text-heading{
@@ -240,10 +247,11 @@ a.button:hover span.shine {
                 font-weight: 800;
                 letter-spacing: 10px;
                 word-spacing: 20px;
-                padding-left:  200px;
+                padding-left:  100px;
                 margin-right: 200px;
                 padding-top: 150px;
                 text-shadow: 0px 0px 8px black;
+                
                 
                 
             }
@@ -254,10 +262,11 @@ a.button:hover span.shine {
                 font-weight: 500;
                 letter-spacing: 3px;
                 word-spacing: 6px;
-                padding-left:  200px;
+                padding-left:  100px;
                 margin-right: 260px;
                 padding-top: 70px;
                 text-shadow: 0px 0px 8px black;
+                
                 
             }  
             
@@ -266,7 +275,7 @@ a.button:hover span.shine {
                 background: radial-gradient(
       black, transparent
     ),url(pagemark.jpeg) no-repeat center center fixed; 
-		background-size: cover;
+                background-size: cover;
                 padding:100px;
                 padding-left:150px;
             }    
@@ -339,7 +348,7 @@ a.button:hover span.shine {
             }
             
             #contact{
-                margin-left:130px;
+                margin-left:150px;
                 margin-right:400px;
                 padding-top:100px;
             }
