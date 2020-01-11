@@ -286,19 +286,17 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   line-height:3em;
   transition:background 0.3s;
   cursor:pointer;
-  margin-left:590px;
-  margin-right:590px;
+  margin-left:42%;
+  margin-right:42%;
   margin-top:3%;
- font: 25px 'Arizonia', Helvetica, sans-serif;
+ font: 15px 'Arizonia', Helvetica, sans-serif;
  font-weight: 600;
  letter-spacing: 3px;
- padding-top:10px;
- padding-bottom:10px;
+ padding-top:15px;
+ padding-bottom:15px;
  text-shadow: 0px 0px 4px black;
  box-shadow: 0px 0px 4px black;
  border-radius: 5px;
-
-  
 }
 
 label:after{
